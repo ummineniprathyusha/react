@@ -7,8 +7,7 @@ import React, { Children, useContext, useMemo } from "react"
 React is an open-source front-end JavaScript library that is used for building user
 interfaces, especially for single-page applications. It is used for handling view layer for web
 and mobile apps. React was created by Jordan Walke, a software engineer working for
-Facebook. React was first deployed on Facebook's News Feed in 2011 and on Instagram in
-2012.
+Facebook. React was first deployed on Facebook's News Feed in 2011 and on Instagram in 2012.
 
 2)// index.js (js code)
 by using js methods: js & React:
@@ -47,12 +46,12 @@ rootEle.render(<div>
 
 // ex-1: User.js
 export default function User(){
-    return(
-        <div>
-        <h1>Welcome to React</h1>
-        <p>Lets learn about react more...</p>
-        </div>
-    )
+  return(
+      <div>
+      <h1>Welcome to React</h1>
+      <p>Lets learn about react more...</p>
+      </div>
+  )
 }
 export function Person(){
     return(
@@ -632,7 +631,7 @@ function Counter() {
 
 export default Counter
 
-
+26-05:
 focus, useRef : counter.js:
 import React from 'react'
 import { useState, useRef, useEffect } from 'react'
@@ -663,3 +662,32 @@ export default Counter
 27-05--------------------- 
 lazy loading:
 npm run build 
+
+
+28-05:
+Redux: 
+install redux library
+library name: 
+@reduxjs/toolkit = to update data in redux, write logics by using methods
+react-redux = to provide 
+
+1)store{} - data (multiple data)(data type is object)
+intialData={
+cartCount:0
+cartData:[]
+}
+methods:
+1)createSlice({
+  name:'cart',
+  initialState:intialData,reducers:{
+    increaseCount:(state,action)=>{
+      state.cartCount +=1
+    }
+  }
+}) = to update cart details 
+
+
+2)reducer (to update)
+3)dispatch: 
+4)action 
+

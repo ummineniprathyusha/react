@@ -1,3 +1,25 @@
-React: 
+React: notes.
 
 https://docs.google.com/document/d/1Mh1eDUJUw9a8nizOfskqzsqC42jLAtEGvCq9LlnIKIk/edit
+
+
+
+React: Full notes:
+
+https://docs.google.com/document/d/1dS2RZ10iyziKR9yL_7d0nGWy94q7xv2_Nx7YpjLulwQ/edit
+
+
+
+
+
+
+
+git clone in git hub------------------
+copy code url
+cmd :
+git clone (paste url)
+open folder:
+git status
+git add .
+git commit -m "add"
+git push origin

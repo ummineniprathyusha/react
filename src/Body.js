@@ -23,9 +23,9 @@ useEffect(()=>{
 
   return (
     <div>
-      <input className='m-2' type='text' onChange={(event)=>{
+      <input className='m-2 border-pink-600 border-2 rounded-full p-1' type='text' onChange={(event)=>{
    setSearchItem(event.target.value)
-      }} className=" border-pink-600 border-2 rounded-full p-1"/>
+      }}/>
       <button onClick={()=>{
         let FilteredItems =restaurantsData.filter(function(ele){
           console.log(ele)

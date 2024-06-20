@@ -12,7 +12,9 @@ function Counter() {
       <button onClick={()=>{
         dispatch(1)
       }} >increase</button>
+      
       {/* <input type="text" ref={data} className='border-pink-500 border-2'/> */}
+
     </div>
   )
 }

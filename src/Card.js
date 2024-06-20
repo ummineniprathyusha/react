@@ -22,8 +22,8 @@ export default Card
 export function HOC(card){
   return function(props){
     return <div>
-      <card {...props}/>
-      <h2 className='bg-pink-500 text-white p-1 w-11 ml-14'></h2>
+      <Card {...props}/>
+      <h2 className='bg-pink-500 text-white p-1 w-11 ml-14'>Veg</h2>
     </div>
   }
 }
